@@ -6,7 +6,15 @@
 ## 安装
 1. `pip install -r requirements.txt`
 2. `fastapi dev server.py`
-3. open [`[localhost:8000/docs](http://127.0.0.1:8000/docs)`](http://127.0.0.1:8000/docs)
+3. open [docs](http://127.0.0.1:8000/docs)
+
+### 模型本地化安装
+1. open [openai/whisper-large-v3](https://huggingface.co/openai/whisper-large-v3)
+2. mkdir models
+3. git clone https://huggingface.co/openai/whisper-large-v3
+4. cd whipser-large-v3 && git lfs install
+5. git lfs pull
+
 ## 许可证
 ### MIT License
 
